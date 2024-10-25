@@ -1,0 +1,76 @@
+/* Card styles */
+.card {
+    height: 100%;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Price styles */
+.price {
+    color: #2c3e50;
+    font-size: 2px;
+    font-weight: bold;
+}
+
+/* Filter styles */
+.form-select {
+    cursor: pointer;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+/* Error message */
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 200px;
+    height: 400px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
